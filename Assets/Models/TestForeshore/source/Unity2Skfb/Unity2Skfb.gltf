@@ -1,0 +1,317 @@
+{
+	"asset": {
+		"generator": "Unity 2017.2.0f3",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0.005, 0.005, 0.005 ],
+			"min": [ -0.005, -0.005, -0.005 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 288,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0.875, 1 ],
+			"min": [ 0.125, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 24,
+			"max": [ 0, 0, 1, 1 ],
+			"min": [ -1, 0, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 36,
+			"max": [ 23 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 65,
+			"max": [ 2.133333 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 65,
+			"max": [ 0.0259751, 0.01319808, -0.004728951 ],
+			"min": [ -0.02966803, 0.01297931, -0.02687684 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 6,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 65,
+			"max": [ 0.2158518, 0.6664224, 0.5267559, -0.5054415 ],
+			"min": [ -0.4872712, -0.09260361, -0.6018596, -1.000116 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 5,
+			"byteOffset": 780,
+			"componentType": 5126,
+			"count": 65,
+			"max": [ 0.4358225, 0.4358225, 0.4358225 ],
+			"min": [ 0.4358225, 0.4358225, 0.4358225 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 576,
+			"componentType": 5126,
+			"count": 114,
+			"max": [ 0.03420499, 0.01, 4.470348E-10 ],
+			"min": [ -0.03420498, -0.01, -0.03481533 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 1944,
+			"componentType": 5126,
+			"count": 114,
+			"max": [ 0.994873, 1, 1 ],
+			"min": [ -0.994873, -1, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 192,
+			"componentType": 5126,
+			"count": 114,
+			"max": [ 0.6343749, 0.7660949 ],
+			"min": [ 0.4156249, 0.234375 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 384,
+			"componentType": 5126,
+			"count": 114,
+			"max": [ 1, 0.5509704, 0.9806204, 1 ],
+			"min": [ -1, -0.5509704, -0.9806204, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 72,
+			"componentType": 5123,
+			"count": 252,
+			"max": [ 113 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"animations": [
+		{
+			"name": "ForeshoreModel",
+			"channels": [
+				{
+					"sampler": 0,
+					"target": {
+						"node": 1,
+						"path": "translation"
+					}
+				},
+				{
+					"sampler": 1,
+					"target": {
+						"node": 1,
+						"path": "rotation"
+					}
+				},
+				{
+					"sampler": 2,
+					"target": {
+						"node": 1,
+						"path": "scale"
+					}
+				}
+			],
+			"samplers": [
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 6
+				},
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 7
+				},
+				{
+					"input": 5,
+					"interpolation": "LINEAR",
+					"output": 8
+				}
+			]
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 10060,
+			"uri": "Unity2Skfb.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 576,
+			"target": 34963,
+			"byteOffset": 6884
+		},
+		{
+			"buffer": 0,
+			"byteLength": 260,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1104,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 260
+		},
+		{
+			"buffer": 0,
+			"byteLength": 3312,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 1364
+		},
+		{
+			"buffer": 0,
+			"byteLength": 2208,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 4676
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1560,
+			"byteStride": 12,
+			"byteOffset": 7460
+		},
+		{
+			"buffer": 0,
+			"byteLength": 1040,
+			"byteStride": 16,
+			"byteOffset": 9020
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.5, 0.5, 0.5, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "lambert1"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_pCube1_36458pCube1",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_pCylinder1_36460pCylinder1",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 9,
+						"NORMAL": 10,
+						"TEXCOORD_0": 11,
+						"TANGENT": 12
+					},
+					"indices": 13,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				2
+			]
+		},
+		{
+			"name": "node_pCube1_-5202",
+			"mesh": 0,
+			"translation": [ 0.0259751, 0.01297931, -0.007996135],
+			"scale": [ 0.4358225, 0.4358225, 0.4358225]
+		},
+		{
+			"name": "node_ForeshoreModel_-5198",
+			"children": [
+				1,
+				3
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		},
+		{
+			"name": "node_pCylinder1_-5204",
+			"mesh": 1,
+			"translation": [ 0, 0.01, 0],
+			"scale": [ 1, 0.09579527, 1]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}

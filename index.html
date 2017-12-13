@@ -1,6 +1,7 @@
 <html>
 <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
 <script src="https://rawgit.com/PWCVantage/VantageAssets/master/AR.js/aframe/build/aframe-ar.js"> </script>
+<script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v3.13.1/dist/aframe-extras.min.js"></script>
   <head>
     <style>
       button {
@@ -52,7 +53,7 @@
           <a-asset-item id="tree" src="https://cdn.rawgit.com/PWCVantage/VantageAssets/master/anim/Unity2Skfb.gltf"></a-asset-item>
         </a-assets>
       <a-marker preset='custom' type='pattern' url='AR.js/three.js/examples/marker-training/examples/pattern-files/pwcQRmarkerPETE.patt'>
-        <a-entity gltf-model="#tree"></a-entity>
+        <a-entity gltf-model="#tree" animation-mixer></a-entity>
       </a-marker>
   	  <a-entity camera></a-entity>
     </a-scene>
